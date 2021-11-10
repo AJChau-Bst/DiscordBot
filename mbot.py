@@ -33,12 +33,17 @@ with open ("thingstosend.txt", encoding='utf8') as f:
 
 @client.event
 async def on_message(message):
+<<<<<<< Updated upstream
     #boop == True
+=======
+    # boop == True
+>>>>>>> Stashed changes
     if message.author == client.user:
       return
     if message.content.startswith('$fuckme'):
         death = (random.choice(lines))
         await message.channel.send(death)
+<<<<<<< Updated upstream
     if message.content.startswith('$fuckwhat'):
       await message.channel.send("*$fuckme -- shitty pickup lines\n" + "$fuckwhat -- about the bot\n" + "$enable + $disable -- turn on/off the insults*")
     # if '$disable' in message.content.lower():
@@ -92,6 +97,61 @@ async def on_message(message):
     #               await message.channel.send ("You are small god.")
 
     #   #if
+=======
+#     if message.content.startswith('$fuckwhat'):
+#       await message.channel.send("*$fuckme -- shitty pickup lines\n" + "$fuckwhat -- about the bot\n" + "$enable + $disable -- turn on/off the insults*")
+#     if '$disable' in message.content.lower():
+#       boop = False
+#       await message.channel.send("boop disabled")
+#     if '$enable' in message.content.lower():
+#       boop = True
+#       await message.channel.send("boop enabled")
+#     if boop == True:
+#       if message.author.id == (477180586327408641):
+#           ew = random.randint (1,10)
+#           if ew == 1:
+#               await message.channel.send ("Lil BEAAAAAN")
+#       if message.author.id == (264430261238759424):
+#           ew = random.randint (1,10)
+#           insultnumber = random.randint(1,10)
+#           if ew == 1:
+#               if insultnumber == 1:
+#                   await message.channel.send ("Space Ships!")
+#               if insultnumber == 2:
+#                     await message.channel.send ("salmon.")
+#       if message.author.id == (240642266383777796):
+#           ew = random.randint (1,10)
+#           if ew == 1:
+#               await message.channel.send ("GAYYYYYYY")
+#       if message.author.id == (702595759022800907):
+#           ew = random.randint (1,10)
+#           if ew == 1:
+#               await message.channel.send ("toscana and elliot sittin in a tree...")
+#       if message.author.id == (543536764690890762):
+#           ew = random.randint(1,10)
+#           if ew == 1:
+#               await message.channel.send('"The porsche isnt even that nice, jesus fucking christ"')
+#       if message.author.id == (558783890576375819):
+#           ew = random.randint(1,10)
+#           if ew == 1:
+#               await message.channel.send ("weeb.")
+#       if message.author.id == (355880585186770945):
+#           ew = random.randint (1,20)
+#           if ew == 1:
+#               await message.channel.send ("God.")
+#       if message.author.id == (714717355887820830):
+#           ew = random.randint (1,10)
+#           if ew == 1:
+#               insultnumber = random.randint (1,3)
+#               if insultnumber == 1:
+#                   await message.channel.send ("Dingus")
+#               if insultnumber == 2:
+#                   await message.channel.send ("John John John John John John")
+#               else:
+#                   await message.channel.send ("You are small god.")
+
+#       #if
+>>>>>>> Stashed changes
         
     
 
