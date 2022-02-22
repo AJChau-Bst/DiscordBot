@@ -156,7 +156,7 @@ async def on_message(message):
     
 
 # EXECUTES THE BOT WITH THE SPECIFIED TOKEN. TOKEN HAS BEEN REMOVED AND USED JUST AS AN EXAMPLE.
-client.run("ODQ2NDAzNzk3OTE1MDA5MDc0.YKvA9g.q9OTJvKQnd9EO-RHUi8qj2d_HGA")
+client.run(#insert bot token here)
 
             
       #if message.content.startswith('$rng'):
